@@ -1,11 +1,11 @@
-/*
-Theme Name: portfolio-Melvyn
+/**
+Theme Name: Portfolio-Melvyn
 Theme URI: https://www.monsite.fr/
 Author: Melvyn Raust
 Author URI: https://www.site-auteur.fr/
 Description: Pour voir mon Portfolio
 Version: 1.0
-*/
+**/
 
 #body-contact{
     background-color: black;
@@ -21,7 +21,7 @@ h2{
     background-color: #302b2b;
 }
 header{
-    background-image: url(../images/imageheaderdekstop.jpg);
+    background-image: url(images/imageheaderdekstop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,6 +31,7 @@ header{
 .img-profil{
     height: 100%;
     width: 100%;
+    
 }
 ul{
     text-decoration: none;

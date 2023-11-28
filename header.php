@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
-    <link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>" type="text/css" />
-    <script async type="text/javascript" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/js/script.js' ); ?>"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
-    <?php get_header(); ?>
-<?php wp_head(); ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>page d'acceuil</title>
+    <?php wp_head();?>
 </head>
-
-<body>
-    <nav id="site-navigation" class="main-navigation">
-        <?php
-        wp_nav_menu(
-            array(
-                'theme_location' => 'main-menu',
-                'menu_id'     => 'primary-menu',
-            )
-        );
-        ?>
-    </nav>
-
-Envoyer un message dans #formation
+<body <?php body_class();?>>
+<header>
+        <div class="container-header">
+            <div class="row d-flex">
+                <div class="col-12">
+                    <div class="move-header-lien">
+                        <ul class="header-lien d-flex">
+                            <li class="li-acceuil"><a class="lien-acceuil" href="index.html">Accueil</a></li>
+                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="a-propos.html">A propos</a></li>
+                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="contact.html">Contact</a></li>
+                        </ul>  
+                    </div>                                                                             
+                </div>
+            </div>
+        </div>
+</header>
