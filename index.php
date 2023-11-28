@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-   
+<?php $post = get_post(89) ?>
+<?php echo $post->post_content ?>
     <section class="about pt-5">
         <div class="container">
             <div class="row">
@@ -19,7 +20,7 @@
                     <a class="btn btn-primary" href="a-propos.html">A propos</a>
                 </div>
                 <div class="col-6 offset-4 div-en-quelques-mots p-5 pb-5">
-                <img src="<?php echo bloginfo('template_directory')."images/photo-profil.jpg"?>" alt="photo">
+                <img src="<?php echo bloginfo('template_directory')."/images/photo-profil.jpg"?>" alt="photo">
                 </div>
             </div>
         </div>
