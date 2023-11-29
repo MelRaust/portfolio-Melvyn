@@ -1,20 +1,6 @@
 <?php get_header(); ?>
-    <header>
-        <div class="container-header">
-            <div class="row d-flex">
-                <div class="col-12">
-                    <div class="move-header-lien">
-                        <ul class="header-lien d-flex">
-                            <li class="li-acceuil"><a class="lien-acceuil" href="index.html">Accueil</a></li>
-                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="a-propos.html">A propos</a></li>
-                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="http://localhost/wordpress/wp-admin/post.php?post=79&action=edit">Contact</a></li>
-                        </ul>  
-                    </div>                   
-                                                            
-                </div>
-            </div>
-        </div>
-    </header>
+
+
     <section class="page-a-propos">
         <div class="container">
             <div class="row">

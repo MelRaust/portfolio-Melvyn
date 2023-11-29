@@ -1,11 +1,6 @@
 <?php get_header(); ?>
 
-<?php 
-            //récupération de l'article 46
-            $post = get_post(89);
-            ?>
-            </pre>
-            <span class="biblio"><?php echo $post->post_content;?></span>
+
 
 
     <section class="about pt-5">

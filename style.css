@@ -247,4 +247,10 @@ h1{
 .img{
     height: 300px;
 }
+.active{
+    text-decoration: none;
+    list-style: none;
+    color: #ffb800;
+}
+
 

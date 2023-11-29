@@ -14,9 +14,15 @@
                 <div class="col-12">
                     <div class="move-header-lien">
                         <ul class="header-lien d-flex">
-                            <li class="li-acceuil"><a class="lien-acceuil" href="index.html">Accueil</a></li>
-                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="page-89.php">A propos</a></li>
-                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="contact.html">Contact</a></li>
+                        <nav id="site-navigation" class="main-navigation">
+                                    <?php
+                                    wp_nav_menu(
+                                        array(
+                                            'theme_location' => 'main-menu',
+                                            'menu_id'     => 'primary-menu',
+                                        )
+                                    );
+                                    ?>                          
                         </ul>  
                     </div>                                                                             
                 </div>
