@@ -7,9 +7,7 @@ Description: Pour voir mon Portfolio
 Version: 1.0
 **/
 
-#body-contact{
-    background-color: black;
-}
+
 h1{
     color: white;
     text-align: center;
@@ -255,4 +253,33 @@ h1{
 .menu{
     display: flex;
 }
+.container-form{
+    background-color: black;
+    margin-top: 0px;
+}
 
+/** form wordpress**/
+
+.wpcf7{
+    color:black;
+    align-content: center;
+}
+p{
+    font-size: 16px;
+}
+ 
+.wpcf7{
+margin-left: 480px;
+margin-top: 10px;
+} 
+.wpcf7-submit{
+margin-left: 130px;
+margin-bottom: 10px;
+} 
+.section-contact{
+    margin-top: 0px;
+    background-color: #302b2b;
+}
+.title-contact{
+    background-color: black;
+}

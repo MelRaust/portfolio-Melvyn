@@ -1,5 +1,17 @@
 <?php get_header(); ?>
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php the_content(); ?>
+
+<section class="section-contact">
+    <div class="title-contact">
+        <h1>Vous souhaitez me contacter ?</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+<?php the_content(); ?> 
+</div>
+</div>
+</div>
+</section>
+
 <?php get_footer(); ?>
 
