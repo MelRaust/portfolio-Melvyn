@@ -252,5 +252,7 @@ h1{
     list-style: none;
     color: #ffb800;
 }
-
+.menu{
+    display: flex;
+}
 
