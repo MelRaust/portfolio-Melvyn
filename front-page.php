@@ -1,8 +1,4 @@
 <?php get_header(); ?>
-
-
-
-
     <section class="about pt-5">
         <div class="container">
             <div class="row">

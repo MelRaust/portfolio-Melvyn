@@ -283,3 +283,9 @@ margin-bottom: 10px;
 .title-contact{
     background-color: black;
 }
+.active{
+    color: #00ffff;
+}
+.nav-link{
+ color: #ffb800;
+}

@@ -19,10 +19,10 @@
             <div class="row d-flex">
                 <div class="col-12">
                     <div class="move-header-lien">
-                        <ul class="header-lien d-flex">
-                            <li class="li-acceuil"><a class="lien-acceuil" href="http://localhost/wordpress/">Accueil</a></li>
-                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="http://localhost/wordpress/a-propos/">A propos</a></li>
-                            <li class="li-apropos-contact"><a class="lien-apropos-contact" href="http://localhost/wordpress/contact/">Contact</a></li>
+                        <ul class="header-lien  d-flex">
+                            <li class="li-acceuil "><a class=" lien-acceuil nav-link active"  href="http://localhost/wordpress/">Accueil</a></li>
+                            <li class="li-apropos-contact"><a class="lien-apropos-contact nav-link " href="http://localhost/wordpress/a-propos/">A propos</a></li>
+                            <li class="li-apropos-contact"><a class="lien-apropos-contact nav-link " href="http://localhost/wordpress/contact/">Contact</a></li>
                         </ul>  
                     </div>                   
                                                             
