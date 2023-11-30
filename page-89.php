@@ -7,33 +7,26 @@
                 <div class="col-12">
                     <div class="div-h1-a-propo">
                         <h1>Vous souhaitez en savoir plus sur moi ? </h1>
+                        
                     </div>
                     <div class="parcours-pro-title">
                         <h2 class="title-en-quelques-mots">Mon parcours professionnel</h2>
                     </div>
                     <div class="parcours-pro-para">
                         <p class="parcours-pro-text">
-                            2013-2014: Maçon(dima)
-                        </p>
-                    </div>
-                    <div class="parcours-pro-para">
+                            2013-2014: Maçon (dima)
+                        </p>                                     
                         <p class="parcours-pro-text">
-                            2014-2016: Maçon(apprentissage)
-                        </p>
-                    </div>
-                    <div class="parcours-pro-para">
+                            2014-2016: Maçon (apprentissage)
+                        </p>                                      
                         <p class="parcours-pro-text">
-                            2016-2018: Serrurier-Métallier(apprentissage)
-                        </p>
-                    </div>
-                    <div class="parcours-pro-para">
+                            2016-2018: Serrurier-Métallier (apprentissage)
+                        </p>                  
                         <p class="parcours-pro-text">
-                            2018-2020: Serrurier-Métallier(CDI)    
-                        </p>
-                    </div>
-                    <div class="parcours-pro-para">
-                        <p class="parcours-pro-text">
-                            2021-2023: Opérateur de production(CDI)
+                            2018-2020: Serrurier-Métallier (CDI)    
+                        </p>                  
+                      <p class="parcours-pro-text">
+                            2021-2023: Opérateur de production (CDI)
                         </p>
                     </div>
                 </div>
@@ -48,34 +41,14 @@
                         <h2>Mes centres d'intérêt</h2>
                     </div>
                     <div class="centre-interet-text">
-                        <p class="centre-interet-p">
-                            Adorant la marche à pied je fais souvent de longues randonnées me permettant d’ouvrir mon esprit et de profiter de la nature. <br><br>Etant d’un naturel curieux je m’intéresse à toutes sortes de nouveautés dans beaucoup de domaines mais plus particulierement dans l’informatique. 
+                        <p class="centre-interet">
+                        <?php $post = get_post(124) ?>
+                        <?php echo $post->post_content ?>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-6 footer-lien">
-                    <div class="footer-title-a-propos">
-                        <h2>Vous souhaitez me contacter ?</h2>                   
-                    </div> 
-                    <div class="lien-footer">
-                        <a class="lien-footer-contact" href="contact.html">Me contacter</a>
-                    </div>               
-                </div>
-                <div class="col-6 footer-lien ">
-                    <div class="footer-title-a-propos">
-                         <h2>Vous souhaitez en savoir plus ?</h2>
-                    </div>
-                    <div class="lien-footer">
-                        <a class="lien-footer-contact" href="a-propos.html">A propos</a>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php get_footer(); ?>

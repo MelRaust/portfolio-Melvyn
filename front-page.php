@@ -15,7 +15,7 @@
                             en formation dans le domaine du développement web et web mobile.                                                       
                             Passionné d'informatique depuis très jeune, je me suis lancé  dans  cette formation pour pouvoir plus tard faire de ma passion mon  métier.</p>
                     </div>
-                    <a class="btn btn-primary" href="a-propos.html">A propos</a>
+                    <a class="btn btn-primary" href="http://localhost/wordpress/a-propos/">A propos</a>
                 </div>
                 <div class="col-6 offset-4 div-en-quelques-mots p-5 pb-5 img">
                 <img src="<?php echo bloginfo('template_directory')."/images/photo-profil.jpg"?>" alt="photo">

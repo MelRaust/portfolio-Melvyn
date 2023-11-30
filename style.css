@@ -183,6 +183,7 @@ h1{
 }
 
 
+
 /** page A-propos---------------------------**/
 
 
@@ -214,22 +215,26 @@ h1{
 }
 .parcours-pro-text{
     color: #ffb800;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .centre-interet-section{
     background-color: black;
     height: 250px;
+    padding-bottom: 20px;
 }
 .centre-interet-title{
     text-align: center;
     margin: auto;
     background-color: #302b2b;
-    margin-top: 40px;
+    margin-top: 30px;
     border-radius: 11px;
 }
 .centre-interet-text{
     background-color: #302b2b;
     border-radius: 11px;
     margin-top: 30px;
+    
 }
 .centre-interet-p{
     padding: 10px;
@@ -289,3 +294,12 @@ margin-bottom: 10px;
 .nav-link{
  color: #ffb800;
 }
+.centre-interet-text p {
+    color: #ffb800;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+
+

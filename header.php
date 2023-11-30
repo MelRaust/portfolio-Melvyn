@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="<?php echo bloginfo('template_directory')."/reset.css"?>" type="text/css" />
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
