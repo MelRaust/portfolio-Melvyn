@@ -10,7 +10,7 @@
                         <h2 class="title-en-quelques-mots">En quelques mots</h2>
                     </div>
                     <div class="paragraphe-presentation">
-                        <p>
+                        <p class="centre-interet">
                         <?php $post = get_post(126) ?>
                         <?php echo $post->post_content ?>
                         </p>
