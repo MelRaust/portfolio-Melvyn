@@ -26,6 +26,7 @@ header{
     height: 214px;
     width: 100%;
 }
+
 .img-profil{
     height: 100%;
     width: 100%;
@@ -86,6 +87,7 @@ p{
     border-radius: 11px;
     margin-top: 60px;
 }
+
 .en-quelques-mots{
     color: #ffb800;
     background-color: #302b2b;
@@ -300,6 +302,7 @@ margin-bottom: 10px;
     padding-bottom: 3px;
     padding-top: 3px;
 }
+
 
 
 

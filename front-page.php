@@ -11,9 +11,9 @@
                     </div>
                     <div class="paragraphe-presentation">
                         <p>
-                            Je m'appelle Melvyn Raust, j'ai 25 ans et je suis actuellement 
-                            en formation dans le domaine du développement web et web mobile.                                                       
-                            Passionné d'informatique depuis très jeune, je me suis lancé  dans  cette formation pour pouvoir plus tard faire de ma passion mon  métier.</p>
+                        <?php $post = get_post(126) ?>
+                        <?php echo $post->post_content ?>
+                        </p>
                     </div>
                     <a class="btn btn-primary" href="http://localhost/wordpress/a-propos/">A propos</a>
                 </div>
